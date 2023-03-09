@@ -197,6 +197,18 @@
         flex-wrap: wrap;
     }
 
+    /* ------Backdrop------ */
+
+    .modal {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(1turn) scale(1);
+    }
+
+
+    .backdrop.is-hidden .modal {
+        transform: translate(-50%, -50%) rotate(0) scale(0);
+    }
+
 
 
 
