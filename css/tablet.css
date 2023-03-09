@@ -138,15 +138,8 @@
         width: calc((100% - 30px) / 2);
     }
 
-
     .benefits-title {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-    }
-
-    .benefits-desc {
-        line-height: 1.5;
+        text-align: left;
     }
 
     /*--------------------Our Team---------------*/
@@ -191,6 +184,10 @@
         display: flex;
         flex-wrap: wrap;
         max-width: 552px;
+    }
+
+    .footer-text {
+        margin-bottom: 0;
     }
 
     .footer-text-wrap {

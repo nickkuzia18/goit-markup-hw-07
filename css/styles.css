@@ -172,6 +172,7 @@ body {
 .menu-open {
     display: block;
     margin-left: auto;
+    padding: 0;
     border: none;
     background-color: transparent;
     width: 32px;
@@ -489,9 +490,7 @@ body {
 }
 
 .client-link {
-    transition-property: border-color, color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -500,6 +499,9 @@ body {
     border: 1px solid #8E8F99;
     border-radius: 4px;
     color: #8E8F99;
+    transition-property: border-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:is(:hover, :focus) {
@@ -517,6 +519,11 @@ body {
     background-color: var(--main-brand-color);
     padding-top: 96px;
     padding-bottom: 96px;
+}
+
+.footer-container {
+    max-width: 398px;
+    padding: 0 15px;
 }
 
 
@@ -612,6 +619,7 @@ body {
 }
 
 .user-email-input {
+    box-sizing: border-box;
     display: block;
     height: 40px;
     margin-bottom: 16px;
@@ -805,7 +813,6 @@ body {
     transform: translate(-50%, -50%) rotate(1turn) scale(1);
     rotate: 3turn;
     width: 360px;
-    /* min-height: 484px; */
     padding: 72px 16px 24px 16px;
     background-color: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -814,6 +821,8 @@ body {
     transition-duration: 1500ms;
     transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
+
+.modal-container {}
 
 .backdrop.is-hidden .modal {
     background-color: rgba(46, 47, 66, 0.4);
@@ -1013,4 +1022,10 @@ body {
 .modal-close:is(:hover, :focus) {
     background-color: var(--hover-action-color);
     fill: #FFFFFF;
+}
+
+@media screen and (max-width: 428px) {
+    .modal {
+        max-width: 252px;
+    }
 }
