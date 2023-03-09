@@ -1,0 +1,9 @@
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 428px;
+    }
+
+    .menu-tel {
+        font-size: 36px;
+    }
+}

@@ -1,0 +1,205 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1128px;
+        padding: 0 15px;
+        margin: 0 auto;
+        /* outline: 2px solid red; */
+    }
+
+    /*-----------------Header----------------*/
+
+    .logo {
+        margin-right: 76px;
+        display: flex;
+    }
+
+    .header {
+        padding-bottom: 24px;
+    }
+
+    .header-navigation {
+        margin-right: auto;
+    }
+
+    .contacts {
+        display: block;
+    }
+
+    .contacts-list {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .menu-open {
+        display: none;
+    }
+
+    /*--------------Hero-----------------*/
+
+    .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+        max-width: 1440px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice1.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice1-2x.jpg);
+        }
+    }
+
+    /*------------------features---------------*/
+
+    .features {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .features-list {
+        gap: 24px;
+    }
+
+    .features-item {
+        max-width: 264px;
+    }
+
+    .features-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 264px;
+        height: 112px;
+        background: #F4F4FD;
+        border-radius: 4px;
+    }
+
+    .benefits-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: start;
+    }
+
+    .benefits-desc {
+        line-height: 1.5;
+    }
+
+    /*-----------------Doing----------------------------*/
+
+    .doing {
+        display: block;
+        padding-bottom: 120px;
+    }
+
+    .doing-title {
+        margin-bottom: 72px;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--main-brand-text-color);
+    }
+
+    .doing-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    /*--------------------Our Team---------------*/
+
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    /* ---------------------Customers---------------------- */
+
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .client-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+
+    /*------------------------Footer------------------------*/
+
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .footer-text-wrap {
+        max-width: 264px;
+        margin-right: 120px;
+        margin-bottom: 0;
+    }
+
+    .footer .logo {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .footer-text {
+        width: 264px;
+        margin-bottom: 0;
+    }
+
+    .footer-social-wrap {
+        margin-right: 80px;
+    }
+
+    .footer-social-list {
+        margin-bottom: 0;
+    }
+
+    .user-email-input {
+        box-sizing: border-box;
+        margin-right: 24px;
+        padding-left: 16px;
+    }
+
+    .subscribe-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .send-icon {
+        opacity: 0.24;
+    }
+
+    /*--------------------Portfolio-----------------*/
+
+    .portfolio-examples {
+        padding-top: 96px;
+        padding-bottom: 120px;
+    }
+
+    .filters-list {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 72px;
+    }
+
+    .projects-list {
+        display: flex;
+        column-gap: 24px;
+        row-gap: 48px;
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+
+}
