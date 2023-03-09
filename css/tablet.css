@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
+        max-width: 732px;
     }
 
     .header {
@@ -231,6 +231,16 @@
         margin: 0;
         width: 165px;
         height: 40px;
+    }
+
+    /*--------------------Portfolio-----------------*/
+
+    .projects-list {
+        justify-content: space-between;
+    }
+
+    .project-card {
+        width: calc((100% - 24px) / 2);
     }
 
     /* ------Backdrop------ */

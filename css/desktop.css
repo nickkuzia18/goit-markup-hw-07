@@ -190,11 +190,8 @@
         margin-bottom: 72px;
     }
 
-    .projects-list {
-        display: flex;
-        column-gap: 24px;
-        row-gap: 48px;
-        flex-wrap: wrap;
+    .project-card {
+        width: calc((100% - 48px) / 3);
     }
 
     /* ------Backdrop------ */
