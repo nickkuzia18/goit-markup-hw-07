@@ -1026,6 +1026,6 @@ body {
 
 @media screen and (max-width: 427px) {
     .modal {
-        max-width: 252px;
+        width: 85%;
     }
 }
